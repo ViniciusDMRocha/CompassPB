@@ -1,3 +1,4 @@
 Hello
 Alteração 2
 Funcionalidade X adicionada
+Realizando um Merge
