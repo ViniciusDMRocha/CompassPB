@@ -20,6 +20,10 @@ A pasta contém diversos arquivos, cada uma contendo um exercícios diferente:
 - **movies.js**: Realiza uma filtragem de acordo com certos atributos do Objeto Movies.
 - **movingAnElement.js**: Movimenta um elemento do array.
 - **objectEquality.js**: Verifica a igualdade de dois objetos.
+- **regex.js**: Testes de expressões regulares.
+- **callbacks.js**: Aprendendo o funcionamento do setTimeout.
+- **promises.js**: Aprendendo o funcionamento das promises.
+- **asyncAndAwait.js**: Aprendendo o funcionamento das async functions e await.
 
 ## Como Usar
 

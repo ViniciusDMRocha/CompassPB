@@ -1,13 +1,20 @@
-let numbers = [1, 2, 3, 4, 5, 5];
-
-console.log(excluirNumero(numbers, [2, 5]));
-
-function excluirNumero(array, numero){
-    const resp = []
-    for(let i of array){
-        if(!numero.includes(i)){
-            resp.push(i);
-        }
-    }
-    return resp;
+async function somar(a,b){
+    return a + b;
 }
+
+somar(4,5).then(valor => console.log(valor));
+
+
+function somaComDelay(a,b){
+    return new Promise(resolve => {
+        setTimeout(() => resolve(a+b), 3000);
+    });
+}
+
+async function realizaSoma(a,b,c){
+    let x = somaComDelay(a,b);
+    
+    return await x + c;
+}
+
+realizaSoma(1,2,3).then((valor) => console.log(valor));
