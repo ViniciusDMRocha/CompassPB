@@ -6,7 +6,8 @@ Bem-vindo à pasta de exercícios de JavaScript que foram desenvolvidos para o P
 
 A pasta está organizada em subpastas, cada uma contendo exercícios sobre diferentes tópicos:
 
-- **JavaScrip**: Exercicios sobre conceitos básicos de JavaScript, conceitos fundamentais, arrays, objetos, etc.
+- **JsExercises**: Exercicios sobre conceitos básicos de JavaScript, conceitos fundamentais, arrays, objetos, dentre outros.
+- **NodeExercises**: Exercicios e projetos aplicando conceitos de Node na prática, anotações, dentre outros.
 
 \
 Cada subpasta contém um README.md explicando os exercícios e fornecendo instruções específicas.
