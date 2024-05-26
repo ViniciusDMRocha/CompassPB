@@ -25,6 +25,26 @@ const url = require('url');
 
 ## API's
 
-Uma API é basicamente um serviço no qual iremos solicitar algumtipo de dado.
+Uma API é basicamente um serviço no qual iremos solicitar algumtipo de dado. No projeto NodeFarm fizemos a criação de uma API local, a qual nos devolve os dados dos produtos dessa nossa fazenda. Com essa aplicação conseguimos entender alguns conceitos básicos sobre API's.
 
+## NPM
 
+O npm é um gerenciador de pacotes para o Node.JS npm, Inc. é uma subsidiária do GitHub, que fornece hospedagem para desenvolvimento de software e controle de versão com o uso do Git. npm é o gerenciador de pacotes padrão para o ambiente de tempo de execução JavaScript Node.js. è possível acessar o site por meio do link:  [www.npmjs.com](https://www.npmjs.com).
+
+No NPM temos dois tipos de módulos que podemos baixar, sendo eles:
+
+- Dependências
+- DevDependências
+
+As dependências são aqueles módulos que o seu programa precisa ter instalado para que funciona, ele depende das funções que estão naquele módulo.
+\
+Já as DevDependências são aquelas que te ajudaram a desenvolver aquele projeto, não necessariamente seu projeto depense dela, é mais uma dependência na questão de desenvolver aquilo.
+\
+\
+Podemos dizer que existem as locais e globais, sendo as locais as que funcionam somente no projeto que foram instaladas e as globais funcionando em todos (é mais comum que as dependências de desenvolvimento sejam instaladas de maneira global).
+
+Ambas podem ser instaladas pelo comando:\
+    `npm install 'nome do module'`\
+ ou: `npm install 'nome do module --global'`
+
+Para isso antes é necessário usar um `npm init` para inciarlizar seu projeto e poder realziar as instalações das dependências.

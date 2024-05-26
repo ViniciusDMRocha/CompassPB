@@ -6,9 +6,9 @@
 // \S - Caractere que não seja espaço em branco
 // .  - Qualquer caractere, menos nova linha
 
-const cep = /\d{5}-\d{3}/;          // Precisão
-const question = /Banan?a/;         // Question
-const nums = /\d+/;                 // Inúmeros digitos
+const cep = /\d{5}-\d{3}/; // Precisão
+const question = /Banan?a/; // Question
+const nums = /\d+/; // Inúmeros digitos
 
 console.log(cep.test("99999-999"));
 console.log(question.test("Banaa"));
