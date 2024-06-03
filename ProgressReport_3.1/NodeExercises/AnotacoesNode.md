@@ -34,7 +34,25 @@ const url = require('url');
 
 ## API's
 
-Uma API é basicamente um serviço no qual iremos solicitar algumtipo de dado. No projeto NodeFarm fizemos a criação de uma API local, a qual nos devolve os dados dos produtos dessa nossa fazenda. Com essa aplicação conseguimos entender alguns conceitos básicos sobre API's.
+No começo do curso, a definição que tinhamos de API era a seguinte:
+
+Uma API é basicamente um serviço no qual iremos solicitar algum tipo de dado. No projeto NodeFarm fizemos a criação de uma API local, a qual nos devolve os dados dos produtos dessa nossa fazenda. Com essa aplicação conseguimos entender alguns conceitos básicos sobre API's.
+
+Posso dizer que uma API é um pedaço do Software que pode ser usado por outro pedaço de Software, permitindoo assim que aplicações conversem entre si.
+
+### REST - Representational States Transfer
+
+Para uma API seguir o modelo REST de arquitetura ela precisa de seguir os seguintes princípios:
+
+- Separate API into logical **resources**
+- Expose structured, **resource-based URLs**
+- Use **HTTP methods** (verbs)
+  - Create
+  - Read
+  - Update
+  - Delete
+- Send data as **JSON** (usually)
+- Be **stateless**
 
 ## NPM
 
@@ -71,3 +89,9 @@ Tópicos importantes sobre como o Node.Js realmente funciona:
 - Single Thread
 - Thread Pool
 - Event Loop
+
+## Postman
+
+Postman é uma empresa global de software que oferece uma plataforma de API para desenvolvedores projetarem, construírem, testarem e colaborarem em APIs. Mais de 30 milhões de usuários registrados e 500.000 organizações usam o Postman.
+
+Estanos utilizando no projeto chamado Natours para poder ver e praticar como funciona essa comunicação com a API, os comandos, as ideias, os princípios, dentre outros conceitos.
