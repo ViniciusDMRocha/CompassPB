@@ -42,7 +42,7 @@ A pasta contém diversos arquivos, cada uma contendo um exercícios diferente:
 
 3. Leia o README.md da subpasta para entender os exercícios propostos.
 
-4. PAra testar os exercícios primeiro você precisa instalar a extensão _Live Server_, depois disso, vá no arquivo _index.html_ e clicando com o botão direito Abra com o Live Server. Nessa aba que foi aberta no seu navegador, inspecione os elementos da página e vá na abra o console.
+4. Para testar os exercícios primeiro você precisa instalar a extensão _Live Server_, depois disso, vá no arquivo _index.html_ e clicando com o botão direito Abra com o Live Server. Nessa aba que foi aberta no seu navegador, inspecione os elementos da página e vá na abra o console.
 
 5. Para testar os exercicios, basta você abrir o .js da atividade que você tenha interesse e copiar o código para o arquivo **executavel.js**. Após isso salve o arquivo e volte para o console aberto para ver o resultado.
 

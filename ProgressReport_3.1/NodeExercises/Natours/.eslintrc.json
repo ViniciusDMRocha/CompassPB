@@ -5,6 +5,7 @@
         "prettier/prettier": "off",
         "spaced-comment": "off",
         "no-console": "warn",
+        "eslint-plugin-import/no-extraneous-dependencies": "off",
         "consistent-return": "off",
         "func-names": "off",
         "object-shorthand": "off",
