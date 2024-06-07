@@ -174,6 +174,10 @@ O MVC (Model-View-Controller) é um padrão de arquitetura de software que separ
 - **View:** Apresenta os dados ao usuário, renderiza a interface gráfica, recebe entradas do usuário e as encaminha para o Controlador.
 - **Controller:** Interpreta as entradas do usuário e as converte em ações a serem executadas, atua como se fosse o intermediário entre o Modelo e a Visão.
 
-```
+### Atlas MongoDB e MongoDB Compass
 
-```
+Essas duas ferramentas são as que estão sendo usadas para podermos aplicar e testar todas as operações relacionadas ao Banco de Dados.
+
+**Atlas MongoDB** é a plataforma de banco de dados como serviço da MongoDB, que oferece uma solução gerenciada e totalmente automatizada para hospedar, operar e escalar clusters de banco de dados MongoDB na nuvem.
+
+**MongoDB Compass** é uma interface gráfica de usuário para MongoDB, que permite que os usuários explorem e manipulem seus dados visualmente.
