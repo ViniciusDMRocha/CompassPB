@@ -181,3 +181,17 @@ Essas duas ferramentas são as que estão sendo usadas para podermos aplicar e t
 **Atlas MongoDB** é a plataforma de banco de dados como serviço da MongoDB, que oferece uma solução gerenciada e totalmente automatizada para hospedar, operar e escalar clusters de banco de dados MongoDB na nuvem.
 
 **MongoDB Compass** é uma interface gráfica de usuário para MongoDB, que permite que os usuários explorem e manipulem seus dados visualmente.
+
+## Tratamento de Erros
+
+Na **Seção 9: Error Handling with Express** vimos como tratar nossos erros de maneira mais útil, de maneira que conseguimos mostrar para o usuário qual foi o erro que aconteceu, tanto erros de verificação, quanto erros de dados enviados errados, senhas que não batem com a confirmação de senha, erros globais, os quais não sabemos de onde vieram, erros relacionados com as funções assíncronas, dentre diversos outros erros.
+
+Aqui também realizamos uma estruturação, facilitando o entendimento e melhorando a arquitetura de todo nosso projeto para futuras mudanças, utilizando o AppError para gerar erros, ao invés de ficar repetindo códigos inúmeras vezes, funções que detectam e tratam erros, ao invés de utilizar a estrutura de Try/Catch, dentre outras melhorias.
+
+## Autenticação, Autorização e Segurança
+
+Durante a **Seção 10: Authentication, Authorization and Security** vimos bastante sobre a importância das autenticações e verificações no nosso código, aprendemos sobre como gerar JsonWebTokens com data de validade, ou seja, dentro de algum espaço de tempo determinado esse token deixa de ser válido. Criptografia de senhas para que não sejam vazadas, ocultamento de dados sensíveis ao realizar Gets, escondendo os campos que podem ser considerados sensíveis, como senhas, dados de pagamento, etc.
+
+Uma parte que achie interessante foi a implementação do `nodemailer`, que utilizamos para realizar o tratamento do cenário em que o usuário esquece a sua senha, mandando para o email então um link no qual ele pode resetar a sua senha.
+
+Não da para citar tudo que usamos, pois é uma das seções mais longas e trabalhosas, mas basicamente aprendemos nela bastante sobre essa questão de segurança, de fazer um código, um app, um site seguro, no qual o cliente possa se sentir seguro ao usar.
