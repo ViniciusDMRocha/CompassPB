@@ -16,12 +16,12 @@ Tópicos trabalhados: **Exercícios de JavaScript e Node.JS**
 
 ---
 
-### [Progress Report 3.2](https://github.com/ViniciusDMRocha/CompassPB/tree/master/ProgressReport_3.1)
+### [Progress Report 3.2](https://github.com/ViniciusDMRocha/CompassPB/tree/master/ProgressReport_3.2)
 
 Tópicos trabalhados: **Exercícios relacionados a API's**
 
 ---
 
-### [Progress Report 5](https://github.com/ViniciusDMRocha/CompassPB/tree/master/ProgressReport_3.1)
+### [Progress Report 5](https://github.com/ViniciusDMRocha/CompassPB/tree/master/ProgressReport_5)
 
 Tópicos trabalhados: **Exercícios de Solidity, Web3.JS, Metamask, dentre outros**
