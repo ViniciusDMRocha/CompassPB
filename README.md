@@ -12,4 +12,16 @@ Tópicos trabalhados: **Agile, Code Version Control e Docs for Devs**
 
 ### [Progress Report 3.1](https://github.com/ViniciusDMRocha/CompassPB/tree/master/ProgressReport_3.1)
 
-Tópicos trabalhados: **Exercícios de JavaScript**
+Tópicos trabalhados: **Exercícios de JavaScript e Node.JS**
+
+---
+
+### [Progress Report 3.2](https://github.com/ViniciusDMRocha/CompassPB/tree/master/ProgressReport_3.1)
+
+Tópicos trabalhados: **Exercícios relacionados a API's**
+
+---
+
+### [Progress Report 5](https://github.com/ViniciusDMRocha/CompassPB/tree/master/ProgressReport_3.1)
+
+Tópicos trabalhados: **Exercícios de Solidity, Web3.JS, Metamask, dentre outros**

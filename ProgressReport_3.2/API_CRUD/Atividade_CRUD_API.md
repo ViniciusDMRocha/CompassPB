@@ -37,10 +37,10 @@ O papel da integração é conectar uma rota a recursos de backend. Para esta AP
 
 ### Sexto passo - Rotas de Integração
 
-- Choose your API (http-crud-tutorial-api)
-- Choose Integrations
-- Choose a route
-- Under Choose an existing integration, choose `http-crud-tutorial-function`
+- Selecione sua API (http-crud-tutorial-api)
+- Escolha integrações
+- Escolha uma tora
+- Em Escolher uma integração existente, escolha `http-crud-tutorial-function`
 
 ### Sétimo passo - Testando
 
